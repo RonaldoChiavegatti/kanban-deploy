@@ -1,7 +1,7 @@
 [build]
   base = "frontend"
-  command = "npm install && ng build --configuration production"
-  publish = "dist/kanban-board"
+  command = "cd frontend && npm install && ng build --configuration production"
+  publish = "frontend/dist/kanban-board"
 
 # Configurações de redirecionamento para SPA
 [[redirects]]
